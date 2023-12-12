@@ -347,7 +347,7 @@ $fw-black: 900;
       color: $text;
       font-weight: 300;
       font-size: $fs-base;
-      max-width: 70%;
+      max-width: 75%;
       margin: auto;
       @media (min-width: 768px) {
         max-width: 86%;
@@ -366,10 +366,14 @@ $fw-black: 900;
       font-weight: $fw-black;
       text-transform: uppercase;
       line-height: 1;
-      top: 45%;
-      left: 5%;
+      
+      top: 34%;
+      left: 0%;
       transform: translateY(-50%);
-
+      @media (min-width: 360px) {
+        top: 45%;
+      left: 5%;
+      }
       &--italic {
         font-style: italic;
         font-size: clamp(0.9375rem, 0.4018rem + 2.6786vw, 2.0625rem);
@@ -438,7 +442,7 @@ $fw-black: 900;
       -moz-box-shadow: 2px 7px 15px 0px rgba(0, 99, 79, 1);
       box-shadow: 2px 7px 15px 0px rgba(0, 99, 79, 1);
 
-      height: 340px;
+      //height: 340px;
 
       @media (min-width: 992px) {
         font-size: calc(1.15 * $fs-base);
@@ -536,10 +540,10 @@ $fw-black: 900;
     &__description {
       color: $text-black;
       margin-block: 7px;
-
+      text-align: center;
       @media (min-width: 992px) {
         max-width: 59%;
-        text-align: center;
+        
         margin: auto;
         margin-bottom: 10px;
         font-size: calc(1.2 * $fs-base);

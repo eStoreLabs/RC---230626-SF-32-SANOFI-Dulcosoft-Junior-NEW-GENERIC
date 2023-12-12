@@ -277,7 +277,7 @@
   color: #fff;
   font-weight: 300;
   font-size: clamp(12px, 9.722px + 0.6329vw, 16px);
-  max-width: 70%;
+  max-width: 75%;
   margin: auto;
 }
 @media (min-width: 768px) {
@@ -297,9 +297,15 @@
   font-weight: 900;
   text-transform: uppercase;
   line-height: 1;
-  top: 45%;
-  left: 5%;
+  top: 34%;
+  left: 0%;
   transform: translateY(-50%);
+}
+@media (min-width: 360px) {
+  #es-rc #es-rc-content .es-relief__title {
+    top: 45%;
+    left: 5%;
+  }
 }
 #es-rc #es-rc-content .es-relief__title--italic {
   font-style: italic;
@@ -363,7 +369,6 @@
   border-radius: 15px;
   color: #fff;
   box-shadow: 2px 7px 15px 0px rgb(0, 99, 79);
-  height: 340px;
 }
 @media (min-width: 992px) {
   #es-rc #es-rc-content .es-dose__grid {
@@ -454,11 +459,11 @@
 #es-rc #es-rc-content .es-dose__description {
   color: #000;
   margin-block: 7px;
+  text-align: center;
 }
 @media (min-width: 992px) {
   #es-rc #es-rc-content .es-dose__description {
     max-width: 59%;
-    text-align: center;
     margin: auto;
     margin-bottom: 10px;
     font-size: calc(1.2 * clamp(12px, 9.722px + 0.6329vw, 16px));
