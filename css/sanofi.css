@@ -149,19 +149,14 @@
 }
 @media (min-width: 576px) {
   #es-rc #es-rc-content .es-kv__packshot {
-    width: 19%;
+    width: 17%;
     margin-left: 2rem;
   }
 }
 @media (min-width: 768px) {
   #es-rc #es-rc-content .es-kv__packshot {
-    width: 18%;
+    width: 20%;
     margin-left: 3rem;
-  }
-}
-@media (min-width: 768px) {
-  #es-rc #es-rc-content .es-kv__packshot {
-    width: 21%;
   }
 }
 #es-rc #es-rc-content .es-kv__background {
